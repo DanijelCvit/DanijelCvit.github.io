@@ -4,11 +4,38 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Work In Progress</title>
+        <style>
+            @import url("https://fonts.cdnfonts.com/css/apple-garamond");
+
+            html {
+                box-sizing: border-box;
+            }
+            *,
+            *:before,
+            *:after {
+                box-sizing: inherit;
+            }
+
+            #app {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100vw;
+                height: 100vh;
+                font-size: 2rem;
+            }
+
+            @media only screen and (min-width: 768px) {
+                #app {
+                    font-size: 4rem;
+                }
+            }
+        </style>
     </head>
     <body>
         <div id="app"></div>
         <script>
-            document.querySelector("#app").textContent = "Hello World!";
+            document.querySelector("#app").textContent = "Work in progress";
         </script>
     </body>
 </html>
